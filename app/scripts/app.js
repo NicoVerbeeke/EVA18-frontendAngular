@@ -17,6 +17,7 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+  //(comment for testing purposes -> trying to commit to a different branch)
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
