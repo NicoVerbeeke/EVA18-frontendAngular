@@ -17,6 +17,7 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+  //(comment for testing purposes -> trying to commit to a different branch)
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -28,6 +29,11 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl',
+        controllerAs: 'login'
       })
       .otherwise({
         redirectTo: '/'
