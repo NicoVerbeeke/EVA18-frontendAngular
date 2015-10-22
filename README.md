@@ -1,6 +1,10 @@
 This is the angular frontend for the Android and HTML app about vegetarianism. 
 It is a school assignment project at Hogeschool Gent, made by Group #18
 
+Group Members: 
+Matthias Caryn
+Nico Verbeeke
+
 ## Getting started
 
 Install node.js on your machine
